@@ -1,0 +1,216 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #aea47d;
+}
+
+/* Estilos para el header con imagen de fondo */
+header {
+  background-image: url("https://okdiario.com/coolthelifestyle/img/2022/06/30/sixteen-miles-out-odfefv-y2v0-unsplash-scaled-e1656604213773.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 299px;
+  color: #000;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 5rem;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Ajuste del espacio entre el encabezado y la sección de "Inicio" */
+#inicio {
+  margin-top: 50px;
+}
+
+/* Ajuste del espacio entre la sección de "Inicio" y la sección de "Contacto" */
+#contacto {
+  margin-top: 30px;
+}
+
+/* Ajuste del espacio entre la sección de "Contacto" y la sección de "Productos" */
+#productos {
+  margin-top: 50px;
+}
+
+/* Estilo para la imagen con marco */
+.imagen-con-marco,
+.imagen,
+.imagen-6,
+.imagenn {
+  border: 8px solid #000;
+}
+
+/* Estilos para el menú de navegación */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+section {
+  padding: 1rem;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+}
+
+section p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+section ul {
+  list-style: disc;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer-text {
+  margin: 0;
+}
+
+/* Estilos para los enlaces de contacto */
+.contact-links {
+  margin-top: 1rem;
+}
+
+.contact-links p {
+  margin: 0;
+}
+
+.contact-links a {
+  display: inline-block;
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.contact-links a:hover {
+  background-color: #000000;
+}
+
+/* Estilos para la sección de productos */
+#productos ul {
+  list-style: none;
+  padding: 0;
+}
+
+#productos li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+#productos li:before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+}
+
+/* Estilo para el título del section "productos" */
+#productos h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+header h1 {
+  font-size: 4rem; /* Ajusta el tamaño del texto del título según tus preferencias */
+  margin: 0;
+  font-family: "NombreDeLaFuente", sans-serif; /* Reemplaza "NombreDeLaFuente" con el nombre de la fuente que deseas utilizar */
+}
+
+/* Ajuste del espacio entre el encabezado y la sección de "Inicio" */
+#inicio {
+  margin-top: 50px; /* Ajusta el valor para cambiar el espacio entre el encabezado y la sección de "Inicio" */
+}
+
+/* Ajuste del espacio entre la sección de "Inicio" y la sección de "Contacto" */
+#contacto {
+  margin-top: 30px; /* Ajusta el valor para cambiar el espacio entre la sección de "Inicio" y la sección de "Contacto" */
+}
+
+/* Ajuste del espacio entre la sección de "Contacto" y la sección de "Productos" */
+#productos {
+  margin-top: 50px; /* Ajusta el valor para cambiar el espacio entre la sección de "Contacto" y la sección de "Productos" */
+}
+
+/* Estilos para la sección de productos */
+.image-with-text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Ajusta el valor para cambiar el espacio entre cada imagen con texto */
+}
+
+
+
+.text-beside-image {
+  flex: 1;
+  padding: 20px;
+  margin-top: 0%;
+}
+
+.text-beside-image h3 {
+  font-size: 3rem; /* Ajusta el tamaño del texto del subtítulo según tus preferencias */
+}
+
+.text-beside-image p {
+  line-height: 1.6;
+}
+
+/* Estilos para los enlaces de contacto */
+.contact-links {
+  margin-top: 1rem;
+}
+
+.contact-links p {
+  margin: 0;
+}
+
+.contact-links a {
+  display: inline-block;
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-right: 10px;
+}
